@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Angle Selector</title>
+</head>
+<body>
+    <h2>Angle Selector</h2>
+    
+    <!-- Text Box -->
+    <label for="angleInput">Angle:</label>
+    <input type="number" id="angleInput" min="0" max="360">
+    <input type="range" id="inputSlider" min="0" max="360"> 
+
+    <!-- Radio Buttons -->
+    <div class="radio-group">
+        <input type="radio" id="angle0" name="selectAngle" value="0">
+        <label for="angle0">0°</label><br>
+        
+        <input type="radio" id="angle45" name="selectAngle" value="45">
+        <label for="angle45">45°</label><br>
+        
+        <input type="radio" id="angle60" name="selectAngle" value="60">
+        <label for="angle60">60°</label><br>
+        
+        <input type="radio" id="angle90" name="selectAngle" value="90">
+        <label for="angle90">90°</label><br>
+        
+        <input type="radio" id="angle180" name="selectAngle" value="180">
+        <label for="angle180">180°</label><br>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
